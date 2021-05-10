@@ -16,7 +16,7 @@ namespace ListConferences
 
     static string getApiKey()
     {
-      return System.Environment.GetEnvironmentVariable("ACCOUNT_ID");
+      return System.Environment.GetEnvironmentVariable("API_KEY");
     }
 
     public static IList<Conference> GetConferencesList()
